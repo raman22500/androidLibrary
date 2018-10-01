@@ -31,9 +31,7 @@ allprojects {
     }
 }
 
-/*task clean(type: Delete) {
+task clean(type: Delete) {
     delete rootProject.buildDir
-}*/
+}
 
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.raman22500'
